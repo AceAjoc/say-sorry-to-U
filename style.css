@@ -1,0 +1,126 @@
+body{
+    background-color: pink;
+    background-image: url(img/23ad5d7ecf9db957d031e94e4831b48f.jpg);
+}
+
+.nilalaman{
+    margin-top: 20%;
+}
+
+.text{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn1A{
+    font-family: fantasy;
+    position: fixed;
+    background-color: pink;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin-left: -10%;
+    border-color: palevioletred;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+#btn2A{
+    font-family: fantasy;
+    position: fixed;
+    background-color: pink;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin-left: 1%;
+    border-color: palevioletred;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+#btn1,
+#btn2{
+    font-family: fantasy;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: pink;
+    border-color: palevioletred;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+#btn1:hover{
+    padding: 20px 25px;
+}
+
+#btn2:hover{
+    padding: 20px 25px;
+} 
+
+#btn1A:hover{
+    padding: 20px 25px;
+}
+
+#btn2A:hover{
+    padding: 20px 25px;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .nilalaman{
+        margin-top: 60%;
+    }
+    
+    .text{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #btn1A{
+        font-family: fantasy;
+        font-size: 30px;
+        position: fixed;
+        background-color: pink;
+        padding: 50px 55px;
+        margin-left: -18%;
+        border-radius: 50px;
+    }
+    
+    #btn2A{
+        font-family: fantasy;
+        font-size: 30px;
+        position: fixed;
+        background-color: pink;
+        padding: 50px 55px;
+        border-radius: 50px;
+    }
+    
+    #btn1,
+    #btn2{
+        font-family: fantasy;
+        font-size: 30px;
+        padding: 50px 55px;
+        border-radius: 50px;
+    }
+
+    #btn1:hover{
+        padding: 55px 60px;
+    }
+    
+    #btn2:hover{
+        padding: 55px 60px;
+    } 
+    
+    #btn1A:hover{
+        padding: 55px 60px;
+    }
+    
+    #btn2A:hover{
+        padding: 55px 60px;
+    }
+
+    h1{
+        font-size: 69px;
+    }
+
+    #ExBtn{
+        font-size: 30px;
+    }
+} 
